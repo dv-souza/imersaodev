@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas - Danilo Vasconcelos</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor em diversas moedas
+  </h1>
+  <p class="page-subtitle">
+    Descubra o valor do Play
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="moeda">Insira o valor em dólar</label><br>
+  <!– gera o objeto que armazena o valor a ser convertido –>
+    <input type="number" id="valor" size="2" /><br>
+    <!– evento que chama a funcao –>
+      <button type="submit" onclick="Converter()">Converter</button>
+      <!– elementos que serao apresentados na tela –>
+        <h2 id="valorConvertidoReal"></h2>
+        <br>
+        <h2 id="valorConvertidoEuro"></h2>
+        <br>
+        <h2 id="valorConvertidoLibra"></h2>
+        <br>
+        <h2 id="valorConvertidoBitCoin"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
